@@ -1,2 +1,2 @@
 # FETMA
-Functional event trees modelling and analysis tool
+Functional Block Diagrams and Event Trees Modelling and Analysis Sofwtare (FETMA)
