@@ -1,0 +1,37 @@
+
+
+
+#!/encs/bin/bash
+
+
+echo "-----------------Installing graphviz, Tkinter and pip for python ----------------"
+sudo apt install graphviz 
+sudo apt install libgraphviz-dev 
+sudo apt install pkg-config 
+sudo apt install python3-pip
+sudo apt-get install python3-tk
+
+echo "-----------------Installing pygraphviz ----------------"
+sudo apt install -y python3-pygraphviz
+
+echo "-----------------Installing NumPy-----------------"
+pip3 install --user numpy
+
+echo "-----------------Installing MatPlotlib----------------"
+pip3 install --user matplotlib
+
+echo "-----------------Installing NetworkX----------------"
+pip3 install --user networkx==2.3
+
+echo "-----------------Installing easygui----------------"
+pip3 install --user easygui
+
+echo "-----------------Installing pandas----------------"
+pip3 install --user pandas
+
+
+
+
+
+
+

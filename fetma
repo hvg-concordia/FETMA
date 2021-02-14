@@ -1,0 +1,8 @@
+#!/encs/bin/bash
+
+
+#DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+#will give you the full directory name of the script no matter where it is being called from.
+
+python3 $( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )/ETMA.py 2>&1 | tee logs.txt
+
