@@ -6,3 +6,4 @@
 
 python3 $( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )/ETMA.py 2>&1 | tee logs.txt
 
+
