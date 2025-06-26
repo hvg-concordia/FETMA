@@ -40,3 +40,4 @@ def find_between(s, first, last):
         return s[start:end]
     except ValueError:
         return ""
+
