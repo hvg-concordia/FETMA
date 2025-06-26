@@ -225,3 +225,4 @@ def end_node_extractor(tree_instance):
     return [x for x in tree_instance.nodes() if tree_instance.out_degree(x)==0 and tree_instance.in_degree(x)==1]
 
 
+
